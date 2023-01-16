@@ -1,0 +1,126 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(16, 17, 19);
+    color: white;
+    font-family: Overpass;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(at top, rgb(26, 31, 38) 30%, rgb(19, 22, 30) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.star {
+    border: 15px solid rgb(26, 35, 43);
+    width: 15px;
+    border-radius: 50%;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+h1, h2 {
+    margin: 0;
+    margin-left: 25px
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #5B616C;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    background: rgb(26, 35, 43);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #5B616C;
+}
+
+button {
+    width: 80%;
+    align-self: center;
+    position: absolute;
+    bottom: 30px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(249, 96, 18);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: Overpass;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    background: #7F8696;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #F4F9FD;
+}
+
+input:hover + label {
+    background-color: #E97B33;
+    color: #FDEAC8;
+}
+
+.thank-you {
+    width: 150px;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.result {
+    align-self: center;
+    background-color: #282E37;
+    border-radius: 10px;
+    color:rgb(249, 96, 18);
+    border: 4px solid #282E37;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.thanks-h1, .thanks-p {
+    text-align: center;
+    align-self: center;
+}
+
+.thanks-p {
+    font-size: 15px;
+}
