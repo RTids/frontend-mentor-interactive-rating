@@ -11,7 +11,7 @@ button.addEventListener('click', function(){
     
     container.innerHTML = 
     `
-    <img class='thank-you' src='/images/illustration-thank-you.svg'>
+    <img class='thank-you' src='./images/illustration-thank-you.svg' alt='Picture of phone'>
     <p class='result'>You selected ${rating} out of 5<p>
 
     <h1 class='thanks-h1'>Thank you!<h1>
